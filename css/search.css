@@ -1,16 +1,15 @@
-.searchBox {
-	padding-top: 30px;
-	padding-left: 30px;
-	width: 100vw;
-	height: 100vh;
-}
-
 .searchDiv {
 	display: flex;
 	width: 1000px;
 	height: 52px;
 	border-radius: 8px;
 	background-color: rgb(43, 43, 43);
+	/*水平居中，垂直1/4*/
+	position: absolute;
+	text-align: center;
+	left:50%;
+	top: 25%;
+	margin-left: -500px;
 }
 
 .searchInput {
