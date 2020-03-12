@@ -1,14 +1,15 @@
 .searchBox {
 	padding-top: 30px;
 	padding-left: 30px;
-	width: 1500px;
-	height: 52px;
+	width: 100vw;
+	height: 100vh;
 }
 
 .searchDiv {
+	display: flex;
 	width: 1000px;
 	height: 52px;
-	border-radius: 7px;
+	border-radius: 8px;
 	background-color: rgb(43, 43, 43);
 }
 
@@ -22,7 +23,6 @@
 	font-size: 18px;
 	letter-spacing: 1.5px;
 	color: aliceblue;
-	border-radius: 7px;
 	outline: none;
 	border-style:none;
 	background-color:transparent;
@@ -37,8 +37,8 @@
 }
 
 .searchImg {
-	width: 32px;
-	height: 32px;
-	padding-top: 9px;
-	padding-bottom: 11px;
+	width: 34px;
+	height: 34px;
+	padding-top: 8px;
+	padding-bottom: 10px;
 }
