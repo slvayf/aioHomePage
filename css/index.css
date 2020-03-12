@@ -1,0 +1,44 @@
+.searchBox {
+	padding-top: 30px;
+	padding-left: 30px;
+	width: 1500px;
+	height: 52px;
+}
+
+.searchDiv {
+	width: 1000px;
+	height: 52px;
+	border-radius: 7px;
+	background-color: rgb(43, 43, 43);
+}
+
+.searchInput {
+	width: 900px;
+	height: 52px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: aliceblue;
+	border-radius: 7px;
+	outline: none;
+	border-style:none;
+	background-color:transparent;
+}
+
+.searchButton {
+	width: 75px;
+	height: 52px;
+	outline: none;
+	background-color:transparent;
+	border-style: none;
+}
+
+.searchImg {
+	width: 32px;
+	height: 32px;
+	padding-top: 9px;
+	padding-bottom: 11px;
+}
