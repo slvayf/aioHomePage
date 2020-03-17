@@ -8,7 +8,7 @@
 	position: absolute;
 	text-align: center;
 	left:50%;
-	top: 25%;
+	top: 18%;
 	margin-left: -500px;
 }
 
@@ -40,4 +40,29 @@
 	height: 34px;
 	padding-top: 8px;
 	padding-bottom: 10px;
+}
+
+.searchBox {
+	display:grid;
+	    grid-template-columns: 152px 152px 152px 152px 152px 152px;
+	    grid-template-rows: 80px 80px 80px 80px 80px 80px; 
+	    grid-column-gap: 12px;
+	    grid-row-gap: 12px;
+		justify-content: center;
+		align-content: center;
+	width: 1000px;
+	height: 560px;
+	/* 取消注释可填充背景色进行布局测试 */
+	/* background-color: rgb(43, 43, 43); */
+	/*水平居中，垂直1/4*/
+	position: absolute;
+	text-align: center;
+	left:50%;
+	top: 26%;
+	margin-left: -500px;
+}
+
+.searchBoxItem {
+	justify-self: center;
+	align-self: center;
 }
