@@ -13,13 +13,12 @@
     position: relative;
     vertical-align: middle;
     outline: none;
+
 }
 button::before, button::after {
     box-sizing: border-box;
     content: '';
     position: absolute;
-    width: 100%;
-    height: 100%;
 }
 
 .draw {
