@@ -22,8 +22,8 @@ button::before, button::after {
 }
 
 .draw {
-    -webkit-transition: color 0.25s;
-    transition: color 0.25s;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
 }
 .draw::before, .draw::after {
     border: 2px solid transparent;
@@ -48,12 +48,12 @@ button::before, button::after {
 .draw:hover::before {
     border-top-color: #99CCFF;
     border-right-color: #99CCFF;
-    -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+    -webkit-transition: width 0.2s ease-out, height 0.2s ease-out 0.2s;
+    transition: width 0.2s ease-out, height 0.2s ease-out 0.2s;
 }
 .draw:hover::after {
     border-bottom-color: #99CCFF;
     border-left-color: #99CCFF;
-    -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+    -webkit-transition: border-color 0s ease-out 0.4s, width 0.2s ease-out 0.4s, height 0.2s ease-out 0.6s;
+    transition: border-color 0s ease-out 0.4s, width 0.2s ease-out 0.4s, height 0.2s ease-out 0.6s;
 }
