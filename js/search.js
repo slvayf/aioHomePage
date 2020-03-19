@@ -59,7 +59,7 @@ function enterSearch(event) {
 
 // 绘制单个div，由generateSearchBox组装
 function generateDiv(item) {
-	var div = '<div class="searchBoxItem" onclick="coreSearch('+item.url+')">'+item.target+'</div>'
+	var div = '<button class="draw" onclick="coreSearch('+item.url+')">'+item.target+'</button>'
     return div
 }
 
