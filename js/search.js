@@ -3,7 +3,7 @@ var defaultSearchEngines = 'https://www.baidu.com/s?wd=';
 
 // 自定义搜索工具箱，一条完整的搜索引擎或站点包括：标签[target]、标签对应的网址或可识别搜索参数搜索引擎链接[url]
 var data = [
-    { target: '谷歌', url: "'https://www.google.com/search?q='" },
+	{ target: '谷歌', url: "'https://www.google.com/search?q='" },
 	{ target: '必应', url: "'https://cn.bing.com/search?q='" },
 	{ target: '搜狗', url: "'https://www.sogou.com/web?query='" },
 	{ target: '360', url: "'https://www.so.com/s?q='" },
@@ -11,12 +11,15 @@ var data = [
 	{ target: '维基百科', url: "'https://zh.wikipedia.org/wiki/'" },
 	{ target: '京东', url: "'https://search.jd.com/Search?enc=utf-8&keyword='" },
 	{ target: '淘宝', url: "'https://s.taobao.com/search?q='" },
-    { target: '豆瓣', url: "'https://www.douban.com/search?q='" },
+  { target: '豆瓣', url: "'https://www.douban.com/search?q='" },
 	{ target: '知乎', url: "'https://www.zhihu.com/search?type=content&q='" },
 	{ target: '百度翻译', url: "'https://fanyi.baidu.com/#en/zh/'" },
 	{ target: '谷歌翻译', url: "'https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text='" },
 	{ target: '腾讯视频', url: "'https://v.qq.com/x/search/?q='" },
-    { target: '哔哩哔哩', url: "'https://search.bilibili.com/all?keyword='" },
+	{ target: '哔哩哔哩', url: "'https://search.bilibili.com/all?keyword='" },
+	{ target: '喜马拉雅', url: "'https://www.ximalaya.com/search/'" },
+	{ target: '6V电影网', url: "'http://www.hao6v.com/'" },
+	{ target: '慕课网', url: "'https://www.imooc.com/search/?words='" },
 ]
 
 // 核心搜索函数
