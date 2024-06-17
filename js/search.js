@@ -5,8 +5,6 @@ var defaultSearchEngines = 'https://www.baidu.com/s?wd=';
 var data = [
 	{ target: '谷歌', url: "'https://www.google.com/search?q='" },
 	{ target: '必应', url: "'https://cn.bing.com/search?q='" },
-	{ target: '搜狗', url: "'https://www.sogou.com/web?query='" },
-	{ target: '360', url: "'https://www.so.com/s?q='" },
 	{ target: '百度百科', url: "'https://baike.baidu.com/item/'" },
 	{ target: '维基百科', url: "'https://zh.wikipedia.org/wiki/'" },
 	{ target: '京东', url: "'https://search.jd.com/Search?enc=utf-8&keyword='" },
