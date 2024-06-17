@@ -9,7 +9,7 @@ var data = [
 	{ target: '维基百科', url: "'https://zh.wikipedia.org/wiki/'" },
 	{ target: '京东', url: "'https://search.jd.com/Search?enc=utf-8&keyword='" },
 	{ target: '淘宝', url: "'https://s.taobao.com/search?q='" },
-  { target: '豆瓣', url: "'https://www.douban.com/search?q='" },
+    { target: '豆瓣', url: "'https://www.douban.com/search?q='" },
 	{ target: '知乎', url: "'https://www.zhihu.com/search?type=content&q='" },
 	{ target: '百度翻译', url: "'https://fanyi.baidu.com/#en/zh/'" },
 	{ target: '谷歌翻译', url: "'https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text='" },
