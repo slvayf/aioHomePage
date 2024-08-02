@@ -13,7 +13,6 @@ var data = [
 	{ target: '百度翻译', url: "'https://fanyi.baidu.com/#en/zh/'" },
 	{ target: '哔哩哔哩', url: "'https://search.bilibili.com/all?keyword='" },
 	{ target: '6V电影网', url: "'http://www.hao6v.com/'" },
-	{ target: '海娇', url: "'https://www.baidu.com/s?wd='" }
 ]
 
 // 核心搜索函数
